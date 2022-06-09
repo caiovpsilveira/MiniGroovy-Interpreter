@@ -5,37 +5,37 @@ Interpretador para uma "mini" linguagem, criada a partir de um subconjunto da li
 
 A linguagem possui suporte aos seguintes tipos dinâmicos:
 
-nulo (null);
-lógico (false/true);
-strings (sequencia de caracteres entre aspas simples);
-arranjos (sequencia de elementos entre colchetes, separados por virgulas);
-mapas (sequencia de pares (string) chave:elemento, separados por virgulas).
+nulo (null); <br />
+lógico (false/true); <br />
+strings (sequencia de caracteres entre aspas simples); <br />
+arranjos (sequencia de elementos entre colchetes, separados por vírgulas); <br />
+mapas (sequencia de pares (string) chave:elemento, separados por vírgulas). <br />
 
 Os elementos de arranjos podem ser acessados como array[indice], e os elementos de mapas podem ser acessados como mapa.chave ou mapa['chave'].
 
 ## Declaracao de variaveis
 
-Uma variavel pode ser declarada como:
-def a
-em que a recebe o valor null,
-ou ser declarada e aribuida a um valor inicial, como:
-def a = 1
+Uma variável pode ser declarada como: <br />
+def a <br />
+em que a recebe o valor null, <br />
+ou ser declarada e aribuída a um valor inicial, como: <br />
+def a = 1 <br />
 
-Varias variaveis podem ser declaradas em uma unica atribuição, como:
-def a = 1, b, c = [k1:'um', k2:'dois']
-em que a recebe 1, b recebe null e c recebe um mapa
-ou como 
-def (a, b, c, d) = [1, 2, 3]
-em que a recebe 1, b recebe 2, c recebe 3 e d recebe null.
+Varias variáveis podem ser declaradas em uma única atribuição, como: <br />
+def a = 1, b, c = [k1:'um', k2:'dois'] <br />
+em que a recebe 1, b recebe null e c recebe um mapa <br />
+ou como <br />
+def (a, b, c, d) = [1, 2, 3] <br />
+em que a recebe 1, b recebe 2, c recebe 3 e d recebe null. <br />
 
 ## Comandos
 
-if(condicao){ comandos } else { comandos }
-while(condicao) { comandos }
-for( declaracao/atribuicao ; condicao ; comandosDeIncremento ) { comandos }
-foreach( declaracao/variavel 'in' arranjo) { comandos }
-print(string)
-println(string)
+if(condicao){ comandos } else { comandos } <br />
+while(condicao) { comandos } <br /> 
+for( declaracao/atribuicao ; condicao ; comandosDeIncremento ) { comandos } <br />
+foreach( declaracao/variavel 'in' arranjo) { comandos } <br />
+print(string) <br />
+println(string) <br />
 
 ## Operadores:
 Numéricos: + - / * % **
@@ -43,7 +43,7 @@ Numéricos: + - / * % **
 +: Concatenação de strings, arrranjos e mapas.
 Um arranjo pode ser multiplicado por um inteiro N, resultando em uma sequencia de N vezes o arranjo.
 
-# Operadores Lógicos:
+## Operadores Lógicos:
 ==, <, >, <=, >=, !=: Comparam inteiros e strings. <br />
 && (and), || (or) e ! (not): operam sobre tipos lógicos. <br />
 in e !in: verificam se um elemento está ou não contido em um array ou se uma string pertence ou não as chaves de um mapa. <br />
