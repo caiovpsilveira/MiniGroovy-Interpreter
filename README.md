@@ -1,5 +1,5 @@
 # MiniGroovy-Interpreter
-Interpretador para uma "mini" linguagem, criada a partir de um subconjunto da linguagem Groovy.
+Interpretador para uma "mini" linguagem, criada a partir de um subconjunto da linguagem Groovy. Trabalho desenvolvido para a disciplina de Linguagens de Programação.
 
 ## Tipos suportados
 
